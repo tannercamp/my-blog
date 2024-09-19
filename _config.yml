@@ -21,7 +21,7 @@
 title: How to Apply for Data Science Jobs
 email: tannercamp@gmail.com 
 description: Here to help you apply for Data Science Jobs
-baseurl: "/stat386-blog-theme" # the name of the repository 
+baseurl: "/my-blog" # the name of the repository 
 url: "https://tannercamp.github.io" #  change this to "https://<your-github-username>.github.io"
 image: /assets/images/headerimg.jpg
 author: Tanner Campbell
