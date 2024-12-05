@@ -16,8 +16,20 @@ The analysis revealed a strong positive correlation (0.72) between minutes playe
 ## Visualizations
 Through scatter plots, histograms, and box plots, I visualized the data, offering insights into how players’ minutes correlate with their scoring output. Key visuals included:
 - A scatter plot showing a positive correlation between minutes played and PPG.
+  <figure>
+    <img src="https://tannercamp.github.io/my-blog/assets/images/blog3pic1.jpg" alt="">
+  </figure>
 - Distribution graphs for minutes played and PPG, highlighting the typical range of player statistics.
+  <figure>
+    <img src="https://tannercamp.github.io/my-blog/assets/images/blog3pic2.jpg" alt="">
+  </figure>
+  <figure>
+    <img src="https://tannercamp.github.io/my-blog/assets/images/blog3pic3.jpg" alt="">
+  </figure>
 - A box plot to identify scoring outliers, revealing that most players scored between 5-30 PPG.
+  <figure>
+    <img src="https://tannercamp.github.io/my-blog/assets/images/blog3pic4.jpg" alt="">
+  </figure>
 
 ## Streamlit App Introduction
 
@@ -32,5 +44,6 @@ You can interact with the app [here](https://wfy8gwdejd7cnlmxqpoxwr.streamlit.ap
 This analysis emphasizes the importance of player efficiency, showing that while playing more minutes can lead to higher scoring, other factors like player role and team strategy must also be considered. The Streamlit app lets you explore these relationships in-depth, providing further insights into NBA performance.
 
 For those interested in replicating the analysis or exploring the code behind it, check out my [GitHub repository](git@github.com:tannercamp/Blog-Repository-Code.git).
+
 
 My App: https://wfy8gwdejd7cnlmxqpoxwr.streamlit.app/
