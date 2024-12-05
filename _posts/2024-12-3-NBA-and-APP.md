@@ -54,10 +54,6 @@ To quantify the relationship between minutes played and points per game, I compu
 
 To make this analysis more interactive, I developed a Streamlit app that allows users to explore the data themselves. The app includes a variety of features designed to provide deeper insights into the relationship between minutes played and points per game.
 
-## Streamlit App Introduction
-
-To make this analysis more interactive, I developed a Streamlit app that allows users to explore the data themselves. The app includes a variety of features designed to provide deeper insights into the relationship between minutes played and points per game.
-
 ### Features of the Streamlit App:
 
 - **Interactive Visualizations**: The app generates various visualizations like scatter plots, histograms, and box plots to help users explore the relationship between player minutes and their scoring efficiency. For instance, users can interact with a scatter plot that shows how points per game (PPG) correlate with minutes played. This can be valuable for understanding performance patterns over different playing times.
@@ -70,15 +66,6 @@ To make this analysis more interactive, I developed a Streamlit app that allows 
   After applying these filters, the data is dynamically updated, providing the user with an updated table of players that match the selected criteria.
 
 - **Player Comparisons**: The app enables users to compare players' performance metrics side by side. For example, users can select multiple players and visualize their points per game and minutes played to compare how they perform relative to one another, whether they’re starters, role players, or stars.
-
-### Visualizations:
-- **Scatter Plot**: The app displays a scatter plot showing the relationship between minutes played per game and points per game. The plot is color-coded by team, allowing users to see team-based performance variations.
-- **Histograms**: Separate histograms for minutes played and points per game are displayed, helping users understand the distribution of these metrics across the dataset.
-- **Box Plot**: A box plot is used to show how points per game vary across teams, highlighting outliers and providing a quick visual of team-based performance.
-- **Correlation Heatmap**: The correlation between minutes played and points per game is shown in a heatmap, which helps users quantify the strength of the relationship between these two variables.
-
-You can interact with the app [here](https://wfy8gwdejd7cnlmxqpoxwr.streamlit.app/), where you can explore the data and discover trends that may not be immediately apparent from a static analysis.
-
 ---
 ### How the Filters and Graphics Work:
 
@@ -92,15 +79,9 @@ In the app, the filtering system provides a powerful way to hone in on specific 
 The app’s visualizations react to these filters, ensuring that users only see the data that fits their selected criteria. For example:
 - After selecting specific teams or a range of points per game, the **scatter plot** updates to reflect only those players, making it easier to analyze the relationship between minutes and points for the chosen subset.
 - The **histograms** and **box plots** also update dynamically to show the distribution of minutes played or points scored for the filtered players, providing insights into player performance across various segments.
-  
-This interactivity allows users to explore the data in more granular ways and discover insights that may not be immediately visible from the raw dataset alone.
 
 ---
 You can now use the app to explore these relationships and dive deeper into how minutes played affects performance across different teams and player profiles. The flexibility of filtering and interactive visualizations makes this analysis accessible and insightful for anyone interested in NBA player performance.
-
-
-### Exploring the Data:
-When using the app, start by adjusting the slider for minutes played to see how it affects the distribution of points per game. You can also filter for positions such as guards, forwards, or centers to observe how these roles differ in terms of playing time and scoring efficiency. As you interact with the data, you’ll be able to uncover further insights into player performance, which can aid in making better decisions for team strategies.
 
 ## Conclusion
 This analysis highlights the importance of considering **player efficiency**, not just the raw numbers of minutes played and points scored. While more time on the court generally results in higher scoring, there are diminishing returns once a certain threshold is passed. Additionally, players who are able to score more in fewer minutes, often in key moments, are often the most valuable assets to their teams.
