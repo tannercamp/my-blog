@@ -54,12 +54,50 @@ To quantify the relationship between minutes played and points per game, I compu
 
 To make this analysis more interactive, I developed a Streamlit app that allows users to explore the data themselves. The app includes a variety of features designed to provide deeper insights into the relationship between minutes played and points per game.
 
+## Streamlit App Introduction
+
+To make this analysis more interactive, I developed a Streamlit app that allows users to explore the data themselves. The app includes a variety of features designed to provide deeper insights into the relationship between minutes played and points per game.
+
 ### Features of the Streamlit App:
-- **Interactive visualizations**: Users can view scatter plots, histograms, and other visualizations to explore the data interactively.
-- **Filters**: The app lets users filter the data by player position, team, or specific ranges of minutes played. This is helpful for users who want to drill down into particular groups of players or performance levels.
-- **Player Comparisons**: The app also enables users to select multiple players and compare their performance metrics side by side. This feature can help users understand how different players, such as stars versus role players, compare in terms of scoring efficiency.
-  
+
+- **Interactive Visualizations**: The app generates various visualizations like scatter plots, histograms, and box plots to help users explore the relationship between player minutes and their scoring efficiency. For instance, users can interact with a scatter plot that shows how points per game (PPG) correlate with minutes played. This can be valuable for understanding performance patterns over different playing times.
+
+- **Filters**: The app includes several filters that users can adjust to refine the data and focus on specific subsets of players:
+  - **Minimum Games Played Filter**: This slider allows users to filter out players who have played fewer than a specified number of games. For example, users can choose to only show players who have played at least 50 games in the season. This ensures that the analysis focuses on players with substantial playing time and reduces the influence of players with only limited game appearances.
+  - **Team Filter**: Users can select one or more teams using the multi-select dropdown. This enables users to focus on a specific team or compare multiple teams' players based on the minutes played and points per game.
+  - **Points Per Game Range Filter**: The slider for the "Points Per Game" range allows users to specify a minimum and maximum value. This filter helps users narrow down the analysis to players who score within a specific range, allowing them to explore performance differences between high and low scorers.
+
+  After applying these filters, the data is dynamically updated, providing the user with an updated table of players that match the selected criteria.
+
+- **Player Comparisons**: The app enables users to compare players' performance metrics side by side. For example, users can select multiple players and visualize their points per game and minutes played to compare how they perform relative to one another, whether they’re starters, role players, or stars.
+
+### Visualizations:
+- **Scatter Plot**: The app displays a scatter plot showing the relationship between minutes played per game and points per game. The plot is color-coded by team, allowing users to see team-based performance variations.
+- **Histograms**: Separate histograms for minutes played and points per game are displayed, helping users understand the distribution of these metrics across the dataset.
+- **Box Plot**: A box plot is used to show how points per game vary across teams, highlighting outliers and providing a quick visual of team-based performance.
+- **Correlation Heatmap**: The correlation between minutes played and points per game is shown in a heatmap, which helps users quantify the strength of the relationship between these two variables.
+
 You can interact with the app [here](https://wfy8gwdejd7cnlmxqpoxwr.streamlit.app/), where you can explore the data and discover trends that may not be immediately apparent from a static analysis.
+
+---
+### How the Filters and Graphics Work:
+
+In the app, the filtering system provides a powerful way to hone in on specific players or performance metrics:
+1. **Filtering by Games Played**: The "Minimum Games Played" filter helps users focus on players who have sufficient playing time to make their performance data more meaningful. For instance, users can adjust the filter to only include players who have played at least 50 games, eliminating players with low sample sizes.
+   
+2. **Team Selection**: The multi-select dropdown allows users to choose one or more teams, enabling comparisons between different teams. This is particularly useful for users who want to focus on players from certain teams or compare players from teams with similar performance profiles.
+   
+3. **Points Per Game Range**: The points per game range slider helps users zoom in on specific performance bands, whether they’re interested in high scorers or players with lower but consistent scoring.
+
+The app’s visualizations react to these filters, ensuring that users only see the data that fits their selected criteria. For example:
+- After selecting specific teams or a range of points per game, the **scatter plot** updates to reflect only those players, making it easier to analyze the relationship between minutes and points for the chosen subset.
+- The **histograms** and **box plots** also update dynamically to show the distribution of minutes played or points scored for the filtered players, providing insights into player performance across various segments.
+  
+This interactivity allows users to explore the data in more granular ways and discover insights that may not be immediately visible from the raw dataset alone.
+
+---
+You can now use the app to explore these relationships and dive deeper into how minutes played affects performance across different teams and player profiles. The flexibility of filtering and interactive visualizations makes this analysis accessible and insightful for anyone interested in NBA player performance.
+
 
 ### Exploring the Data:
 When using the app, start by adjusting the slider for minutes played to see how it affects the distribution of points per game. You can also filter for positions such as guards, forwards, or centers to observe how these roles differ in terms of playing time and scoring efficiency. As you interact with the data, you’ll be able to uncover further insights into player performance, which can aid in making better decisions for team strategies.
