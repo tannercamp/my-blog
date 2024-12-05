@@ -64,8 +64,6 @@ To make this analysis more interactive, I developed a Streamlit app that allows 
   - **Points Per Game Range Filter**: The slider for the "Points Per Game" range allows users to specify a minimum and maximum value. This filter helps users narrow down the analysis to players who score within a specific range, allowing them to explore performance differences between high and low scorers.
 
   After applying these filters, the data is dynamically updated, providing the user with an updated table of players that match the selected criteria.
-
-- **Player Comparisons**: The app enables users to compare players' performance metrics side by side. For example, users can select multiple players and visualize their points per game and minutes played to compare how they perform relative to one another, whether they’re starters, role players, or stars.
 ---
 ### How the Filters and Graphics Work:
 
