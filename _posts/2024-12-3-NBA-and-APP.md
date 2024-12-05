@@ -52,7 +52,7 @@ To quantify the relationship between minutes played and points per game, I compu
 
 ## Streamlit App Introduction
 
-To make this analysis more interactive, I developed a Streamlit app that allows users to explore the data themselves. The app includes a variety of features designed to provide deeper insights into the relationship between minutes played and points per game.
+To make this analysis more interactive, I developed a Streamlit app that allows users to explore the data themselves. The app includes a variety of features designed to provide deeper insights into the relationship between minutes played and points per game. [Steamlit App](https://wfy8gwdejd7cnlmxqpoxwr.streamlit.app/)
 
 ### Features of the Streamlit App:
 
@@ -91,3 +91,4 @@ For those interested in replicating this analysis or learning more about the cod
 ## Further Reading & Resources
 - [NBA API Documentation](https://www.basketball-reference.com/)
 - [Advanced Basketball Statistics](https://www.basketball-reference.com/)
+[Steamlit App](https://wfy8gwdejd7cnlmxqpoxwr.streamlit.app/)
