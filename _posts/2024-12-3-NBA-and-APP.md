@@ -62,8 +62,8 @@ To make this analysis more interactive, I developed a Streamlit app that allows 
   - **Minimum Games Played Filter**: This slider allows users to filter out players who have played fewer than a specified number of games. For example, users can choose to only show players who have played at least 50 games in the season. This ensures that the analysis focuses on players with substantial playing time and reduces the influence of players with only limited game appearances.
   - **Team Filter**: Users can select one or more teams using the multi-select dropdown. This enables users to focus on a specific team or compare multiple teams' players based on the minutes played and points per game.
   - **Points Per Game Range Filter**: The slider for the "Points Per Game" range allows users to specify a minimum and maximum value. This filter helps users narrow down the analysis to players who score within a specific range, allowing them to explore performance differences between high and low scorers.
-
   After applying these filters, the data is dynamically updated, providing the user with an updated table of players that match the selected criteria.
+
 ---
 ### How the Filters and Graphics Work:
 
